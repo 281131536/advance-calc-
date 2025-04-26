@@ -1,7 +1,7 @@
 from add import add
-from sub import subtract
-from mul import multiply
-from div import divide
+from sub import sub
+from mul import mul
+from div import div
 
 def main():
     print("Advanced Calculator")
