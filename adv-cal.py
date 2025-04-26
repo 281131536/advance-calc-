@@ -10,14 +10,14 @@ def main():
     print("Operations: add, sub, mul, div")
     choice = input("Enter operation: ")
 
-    if choice == "add":
+    if choice == "+":
         print(f"Result: {add(a, b)}")
-    elif choice == "sub":
-        print(f"Result: {subtract(a, b)}")
-    elif choice == "mul":
-        print(f"Result: {multiply(a, b)}")
-    elif choice == "div":
-        print(f"Result: {divide(a, b)}")
+    elif choice == "-":
+        print(f"Result: {sub(a, b)}")
+    elif choice == "*":
+        print(f"Result: {mul(a, b)}")
+    elif choice == "/":
+        print(f"Result: {div(a, b)}")
     else:
         print("Invalid operation.")
 
